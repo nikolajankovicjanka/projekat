@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>@yield('title')</title>
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   </head>
   <body>
         @yield('content')
@@ -13,7 +14,7 @@
             <li><a href="/contact">Contact</a></li>
             <li><a href="/projects">Projects</a></li>
             <li><a href="/info">Informacije</a></li>
-            <li><a href="/create">izdravi nalog</a></li>
+            <li><a href="{{ route('kreiraj') }}">izradi nalog</a></li>
         </ul>
 
 

@@ -1,11 +1,6 @@
 @extends('layout')
 
-
-
 @section ('content')
-@section ('title', 'Welcome')
-
-
-
-
+  <h1> Edit project</h1>
+  
 @endsection
